@@ -7,7 +7,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      "Sohel Rana",
+      "Md. Sohel Rana",
       style: Theme.of(context).textTheme.headlineSmall?.copyWith(
         fontWeight: FontWeight.w700,
         color: AppColors.primaryColor,
