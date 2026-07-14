@@ -5,7 +5,7 @@ class ExperienceData {
     ExperienceModel(
       position: "Senior Flutter Developer",
       company: "Betopia Group",
-      duration: "2024 - Present",
+      duration: "2025 - Present",
       current: true,
       description:
           "Building scalable Flutter applications for Android, iOS and Web with Clean Architecture and Firebase.",
@@ -13,8 +13,8 @@ class ExperienceData {
 
     ExperienceModel(
       position: "Flutter Developer",
-      company: "Freelance",
-      duration: "2023 - Present",
+      company: "CodeCell Limited",
+      duration: "2024 - Present",
       description:
           "Developed production-ready mobile applications for international clients using Flutter, REST APIs, Google Maps, Stripe and Firebase.",
     ),

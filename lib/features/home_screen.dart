@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:sohelrana_portfolio/app/scroll_sections.dart';
-import 'package:sohelrana_portfolio/sections/hero_section/hero_section.dart';
+import 'package:sohelrana_portfolio/features/sections/hero_section/hero_section.dart';
 import '../app/home_controller.dart';
-import '../sections/about/about_section.dart';
-import '../sections/contact/contact_section.dart';
-import '../sections/experience/experience_section.dart';
-import '../sections/footer/footer_section.dart';
-import '../sections/navbar/navbar_section.dart';
-import '../sections/projects/projects_section.dart';
-import '../sections/skills/skills_section.dart';
+import 'sections/about/about_section.dart';
+import 'sections/contact/contact_section.dart';
+import 'sections/experience/experience_section.dart';
+import 'sections/footer/footer_section.dart';
+import 'sections/navbar/navbar_section.dart';
+import 'sections/projects/projects_section.dart';
+import 'sections/skills/skills_section.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

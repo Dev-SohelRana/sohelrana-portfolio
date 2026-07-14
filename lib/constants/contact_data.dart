@@ -7,12 +7,12 @@ class ContactData {
     ContactItem(
       icon: Icons.email_outlined,
       title: "Email",
-      value: "your@email.com",
+      value: "sohelrana.diucse@gmail.com",
     ),
     ContactItem(
       icon: Icons.phone_outlined,
       title: "Phone",
-      value: "+880 1XXXXXXXXX",
+      value: "+880 1740084587",
     ),
     ContactItem(
       icon: Icons.location_on_outlined,
