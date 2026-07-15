@@ -12,10 +12,7 @@ class SkillData {
         "Animations",
       ],
     ),
-    SkillModel(
-      title: "Backend",
-      skills: ["Firebase", "REST API", "Supabase", "SQLite", "Hive"],
-    ),
+    SkillModel(title: "Backend", skills: ["Firebase", "REST API"]),
     SkillModel(
       title: "Tools",
       skills: ["Git", "GitHub", "VS Code", "Android Studio", "Xcode"],

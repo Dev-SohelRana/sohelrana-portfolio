@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sohelrana_portfolio/app/scroll_sections.dart';
+import 'package:sohelrana_portfolio/features/sections/education/education_section.dart';
 import 'package:sohelrana_portfolio/features/sections/hero_section/hero_section.dart';
 import '../app/home_controller.dart';
 import 'sections/about/about_section.dart';
@@ -110,6 +111,14 @@ class _HomePageState extends State<HomePage> {
               ),
 
               ListTile(
+                title: const Text("Education"),
+                onTap: () {
+                  Navigator.pop(context);
+                  controller.scrollTo(ScrollSections.educationKey);
+                },
+              ),
+
+              ListTile(
                 title: const Text("Contact"),
                 onTap: () {
                   Navigator.pop(context);
@@ -164,6 +173,7 @@ class _HomePageState extends State<HomePage> {
                 const SkillsSection(),
                 const ProjectsSection(),
                 const ExperienceSection(),
+                const EducationSection(),
                 const ContactSection(),
                 const FooterSection(),
               ],

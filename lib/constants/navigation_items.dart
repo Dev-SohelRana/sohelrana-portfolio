@@ -10,6 +10,7 @@ class NavigationItems {
     NavigationItem("Skills"),
     NavigationItem("Projects"),
     NavigationItem("Experience"),
+    NavigationItem("Education"),
     NavigationItem("Contact"),
   ];
 }

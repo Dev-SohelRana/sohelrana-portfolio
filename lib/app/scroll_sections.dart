@@ -8,5 +8,6 @@ class ScrollSections {
   static final skillsKey = GlobalKey();
   static final projectsKey = GlobalKey();
   static final experienceKey = GlobalKey();
+  static final educationKey = GlobalKey();
   static final contactKey = GlobalKey();
 }

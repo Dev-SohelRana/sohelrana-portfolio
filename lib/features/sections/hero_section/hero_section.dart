@@ -89,7 +89,7 @@ class HeroContent extends StatelessWidget {
         const SizedBox(height: 16),
 
         Text(
-          "Sohel Rana",
+          "Md. Sohel Rana",
           style: Theme.of(
             context,
           ).textTheme.displayMedium?.copyWith(fontWeight: FontWeight.bold),

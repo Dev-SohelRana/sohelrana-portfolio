@@ -8,6 +8,7 @@ class NavItems {
     NavItem(title: "Skills", key: ScrollSections.skillsKey),
     NavItem(title: "Projects", key: ScrollSections.projectsKey),
     NavItem(title: "Experience", key: ScrollSections.experienceKey),
+    NavItem(title: "Education", key: ScrollSections.educationKey),
     NavItem(title: "Contact", key: ScrollSections.contactKey),
   ];
 }

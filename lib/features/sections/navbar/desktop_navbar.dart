@@ -49,6 +49,13 @@ class DesktopNavbar extends StatelessWidget {
         const SizedBox(width: 28),
 
         NavItem(
+          title: "Education",
+          onTap: () => controller.scrollTo(ScrollSections.educationKey),
+        ),
+
+        const SizedBox(width: 28),
+
+        NavItem(
           title: "Contact",
           onTap: () => controller.scrollTo(ScrollSections.contactKey),
         ),
