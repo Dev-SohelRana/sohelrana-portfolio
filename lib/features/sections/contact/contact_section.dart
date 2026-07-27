@@ -48,7 +48,7 @@ class ContactSection extends StatelessWidget {
                   children: const [
                     _ContactInfo(),
                     SizedBox(height: 40),
-                    _ContactForm(),
+                    // _ContactForm(),
                   ],
                 );
               },
@@ -136,14 +136,14 @@ class _ContactInfo extends StatelessWidget {
 
             _SocialButton(
               icon:
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png',
+                  'https://img.magnific.com/premium-vector/round-linkedin-logo-isolated-white-background_469489-985.jpg?semt=ais_hybrid&w=740&q=80',
               label: "LinkedIn",
               onTap: () => UrlService.open(SocialLinks.linkedin),
             ),
 
             _SocialButton(
               icon:
-                  'https://img.magnific.com/premium-vector/facebook-logo-vector-facebook-official-logo-vector-facebook-logo-illustrator_1002350-1803.jpg?semt=ais_hybrid&w=740&q=80',
+                  'https://img.magnific.com/premium-psd/facebook-logo-blue-circle_705838-12823.jpg?semt=ais_hybrid&w=740&q=80',
               label: "Facebook",
               onTap: () => UrlService.open(SocialLinks.facebook),
             ),
@@ -185,6 +185,9 @@ class _SocialButton extends StatelessWidget {
               imageUrl: icon,
               height: 28,
               color: Theme.of(context).colorScheme.primary,
+              placeholder: (context, url) {
+                return const CircularProgressIndicator();
+              },
             ),
 
             const SizedBox(height: 10),
