@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sohelrana_portfolio/models/project_model.dart';
+import 'package:sohelrana_portfolio/services/url_service.dart';
 import 'project_badge.dart';
 import 'tech_chip.dart';
 
@@ -226,7 +227,7 @@ class _ProjectContent extends StatelessWidget {
         Row(
           children: [
             FilledButton.icon(
-              onPressed: () {},
+              onPressed: () => UrlService.open(project.playStoreUrl),
               icon: const Icon(Icons.launch),
               label: const Text("Play Store"),
             ),
@@ -234,7 +235,7 @@ class _ProjectContent extends StatelessWidget {
             const SizedBox(width: 16),
 
             FilledButton.icon(
-              onPressed: () {},
+              onPressed: () => UrlService.open(project.appStoreUrl),
               icon: const Icon(Icons.launch),
               label: const Text("App Store"),
             ),
