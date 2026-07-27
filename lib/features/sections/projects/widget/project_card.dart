@@ -173,34 +173,6 @@ class _ProjectImageState extends State<_ProjectImage> {
   }
 }
 
-// class _ProjectImage extends StatelessWidget {
-//   final String image;
-
-//   const _ProjectImage(this.image);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       constraints: const BoxConstraints(maxWidth: 520),
-//       decoration: BoxDecoration(
-//         borderRadius: BorderRadius.circular(24),
-//         boxShadow: [
-//           BoxShadow(
-//             color: Colors.black.withOpacity(.08),
-//             blurRadius: 25,
-//             offset: const Offset(0, 15),
-//           ),
-//         ],
-//       ),
-//       clipBehavior: Clip.antiAlias,
-//       child: AspectRatio(
-//         aspectRatio: 16 / 9,
-//         child: Image.asset(image, fit: BoxFit.cover),
-//       ),
-//     );
-//   }
-// }
-
 class _ProjectContent extends StatelessWidget {
   final ProjectModel project;
 
@@ -256,15 +228,15 @@ class _ProjectContent extends StatelessWidget {
             FilledButton.icon(
               onPressed: () {},
               icon: const Icon(Icons.launch),
-              label: const Text("Live"),
+              label: const Text("Play Store"),
             ),
 
             const SizedBox(width: 16),
 
-            OutlinedButton.icon(
+            FilledButton.icon(
               onPressed: () {},
-              icon: const Icon(Icons.code),
-              label: const Text("GitHub"),
+              icon: const Icon(Icons.launch),
+              label: const Text("App Store"),
             ),
           ],
         ),
@@ -272,6 +244,35 @@ class _ProjectContent extends StatelessWidget {
     );
   }
 }
+
+// class _ProjectImage extends StatelessWidget {
+//   final String image;
+
+//   const _ProjectImage(this.image);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       constraints: const BoxConstraints(maxWidth: 520),
+//       decoration: BoxDecoration(
+//         borderRadius: BorderRadius.circular(24),
+//         boxShadow: [
+//           BoxShadow(
+//             color: Colors.black.withOpacity(.08),
+//             blurRadius: 25,
+//             offset: const Offset(0, 15),
+//           ),
+//         ],
+//       ),
+//       clipBehavior: Clip.antiAlias,
+//       child: AspectRatio(
+//         aspectRatio: 16 / 9,
+//         child: Image.asset(image, fit: BoxFit.cover),
+//       ),
+//     );
+//   }
+// }
+
 // import 'package:flutter/material.dart';
 // import 'package:sohelrana_portfolio/models/project_model.dart';
 

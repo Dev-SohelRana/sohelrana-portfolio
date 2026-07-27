@@ -14,7 +14,7 @@ class ExperienceData {
     ExperienceModel(
       position: "Flutter Developer Intern",
       company: "CodeCell Limited",
-      duration: "September 2024 - March 2025",
+      duration: "October 2024 - March 2025",
       description:
           "Developed production-ready mobile applications for international clients using Flutter, REST APIs, Google Maps, Stripe and Firebase.",
     ),

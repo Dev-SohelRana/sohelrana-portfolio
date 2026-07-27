@@ -11,7 +11,7 @@ class ProjectModel {
 
   final List<String> technologies;
 
-  final String githubUrl;
+  // final String githubUrl;
 
   final String playStoreUrl;
 
@@ -24,7 +24,7 @@ class ProjectModel {
     required this.published,
     required this.screenshots,
     required this.technologies,
-    required this.githubUrl,
+    // required this.githubUrl,
     required this.playStoreUrl,
     required this.appStoreUrl,
   });
