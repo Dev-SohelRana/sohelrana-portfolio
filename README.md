@@ -94,14 +94,6 @@ A habit tracking application designed to help users build better daily routines.
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dev-SohelRana&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dev-SohelRana&layout=compact&theme=tokyonight)
-
----
-
 ## 🤝 Connect With Me
 
 🌐 Portfolio: https://dev-sohelrana.github.io/sohelrana-portfolio/
