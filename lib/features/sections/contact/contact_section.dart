@@ -48,7 +48,7 @@ class ContactSection extends StatelessWidget {
                   children: const [
                     _ContactInfo(),
                     SizedBox(height: 40),
-                    // _ContactForm(),
+                    _ContactForm(),
                   ],
                 );
               },
@@ -136,7 +136,7 @@ class _ContactInfo extends StatelessWidget {
 
             _SocialButton(
               icon:
-                  'https://img.magnific.com/premium-vector/round-linkedin-logo-isolated-white-background_469489-985.jpg?semt=ais_hybrid&w=740&q=80',
+                  'https://cdn.iconscout.com/icon/free/png-256/free-linkedin-icon-svg-download-png-189774.png?f=webp&w=128',
               label: "LinkedIn",
               onTap: () => UrlService.open(SocialLinks.linkedin),
             ),
@@ -202,57 +202,69 @@ class _SocialButton extends StatelessWidget {
     );
   }
 }
-// class _ContactInfo extends StatelessWidget {
-//   const _ContactInfo();
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Column(
-//       children: [
-//         ...ContactData.items.map(
-//           (item) => Padding(
-//             padding: const EdgeInsets.only(bottom: 18),
-//             child: ContactInfoCard(
-//               item: item,
-//               onTap: () {
-//                 switch (item.title) {
-//                   case "Email":
-//                     UrlService.email(item.value);
-//                     break;
-
-//                   case "Phone":
-//                     UrlService.phone(item.value);
-//                     break;
-
-//                   case "Location":
-//                     UrlService.open(
-//                       "https://maps.google.com/?q=${Uri.encodeComponent(item.value)}",
-//                     );
-//                     break;
-//                 }
-//               },
-//             ),
-//           ),
-//         ),
-
-//         const SizedBox(height: 30),
-
-//         Row(
-//           children: [
-//             IconButton(onPressed: () {}, icon: const Icon(Icons.code)),
-
-//             IconButton(onPressed: () {}, icon: const Icon(Icons.work_outline)),
-
-//             IconButton(onPressed: () {}, icon: const Icon(Icons.language)),
-//           ],
-//         ),
-//       ],
-//     );
-//   }
-// }
-
-class _ContactForm extends StatelessWidget {
+class _ContactForm extends StatefulWidget {
   const _ContactForm();
+
+  @override
+  State<_ContactForm> createState() => _ContactFormState();
+}
+
+class _ContactFormState extends State<_ContactForm> {
+  final _formKey = GlobalKey<FormState>();
+  final _nameController = TextEditingController();
+  final _emailController = TextEditingController();
+  final _subjectController = TextEditingController();
+  final _messageController = TextEditingController();
+
+  @override
+  void dispose() {
+    _nameController.dispose();
+    _emailController.dispose();
+    _subjectController.dispose();
+    _messageController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submitForm() async {
+    if (!_formKey.currentState!.validate()) {
+      return;
+    }
+
+    final contactEmail = ContactData.items.firstWhere(
+      (item) => item.title == "Email",
+    );
+
+    final subject = _subjectController.text.trim().isNotEmpty
+        ? _subjectController.text.trim()
+        : "Portfolio Contact Inquiry";
+
+    final message =
+        """
+Name: ${_nameController.text.trim()}
+Email: ${_emailController.text.trim()}
+
+Message:
+${_messageController.text.trim()}
+""";
+
+    await UrlService.open(
+      'mailto:${contactEmail.value}?subject=${Uri.encodeComponent(subject)}&body=${Uri.encodeComponent(message)}',
+    );
+
+    if (!mounted) return;
+
+    _nameController.clear();
+    _emailController.clear();
+    _subjectController.clear();
+    _messageController.clear();
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text("Your email app is opening with the message draft."),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -263,65 +275,100 @@ class _ContactForm extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: Colors.grey.shade300),
       ),
-      child: Column(
-        children: [
-          TextField(
-            decoration: InputDecoration(
-              labelText: "Name",
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(14),
+      child: Form(
+        key: _formKey,
+        child: Column(
+          children: [
+            TextFormField(
+              controller: _nameController,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: "Name",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
+              validator: (value) {
+                if (value == null || value.trim().isEmpty) {
+                  return "Please enter your name.";
+                }
+                return null;
+              },
+            ),
+
+            const SizedBox(height: 20),
+
+            TextFormField(
+              controller: _emailController,
+              keyboardType: TextInputType.emailAddress,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: "Email",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
+              validator: (value) {
+                if (value == null || value.trim().isEmpty) {
+                  return "Please enter your email.";
+                }
+                final emailRegex = RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$');
+                if (!emailRegex.hasMatch(value.trim())) {
+                  return "Please enter a valid email address.";
+                }
+                return null;
+              },
+            ),
+
+            const SizedBox(height: 20),
+
+            TextFormField(
+              controller: _subjectController,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: "Subject",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
               ),
             ),
-          ),
 
-          const SizedBox(height: 20),
+            const SizedBox(height: 20),
 
-          TextField(
-            decoration: InputDecoration(
-              labelText: "Email",
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(14),
+            TextFormField(
+              controller: _messageController,
+              maxLines: 6,
+              textInputAction: TextInputAction.newline,
+              decoration: InputDecoration(
+                labelText: "Message",
+                alignLabelWithHint: true,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                ),
+              ),
+              validator: (value) {
+                if (value == null || value.trim().isEmpty) {
+                  return "Please enter your message.";
+                }
+                return null;
+              },
+            ),
+
+            const SizedBox(height: 30),
+
+            SizedBox(
+              width: double.infinity,
+              height: 55,
+              child: HoverScale(
+                child: FilledButton.icon(
+                  onPressed: _submitForm,
+                  icon: const Icon(Icons.send_outlined),
+                  label: const Text("Send Message"),
+                ),
               ),
             ),
-          ),
-
-          const SizedBox(height: 20),
-
-          TextField(
-            decoration: InputDecoration(
-              labelText: "Subject",
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(14),
-              ),
-            ),
-          ),
-
-          const SizedBox(height: 20),
-
-          TextField(
-            maxLines: 6,
-            decoration: InputDecoration(
-              labelText: "Message",
-              alignLabelWithHint: true,
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(14),
-              ),
-            ),
-          ),
-
-          const SizedBox(height: 30),
-
-          SizedBox(
-            width: double.infinity,
-            height: 55,
-            child: HoverScale(
-              child: FilledButton(
-                onPressed: () {},
-                child: const Text("Send Message"),
-              ),
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
