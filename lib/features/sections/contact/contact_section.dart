@@ -141,12 +141,12 @@ class _ContactInfo extends StatelessWidget {
               onTap: () => UrlService.open(SocialLinks.linkedin),
             ),
 
-            _SocialButton(
-              icon:
-                  'https://img.magnific.com/premium-psd/facebook-logo-blue-circle_705838-12823.jpg?semt=ais_hybrid&w=740&q=80',
-              label: "Facebook",
-              onTap: () => UrlService.open(SocialLinks.facebook),
-            ),
+            // _SocialButton(
+            //   icon:
+            //       'https://img.magnific.com/premium-psd/facebook-logo-blue-circle_705838-12823.jpg?semt=ais_hybrid&w=740&q=80',
+            //   label: "Facebook",
+            //   onTap: () => UrlService.open(SocialLinks.facebook),
+            // ),
           ],
         ),
       ],
