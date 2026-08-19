@@ -52,25 +52,7 @@ class ProjectData {
     ProjectModel(
       published: true,
       number: "03",
-      playStoreUrl:
-          'https://play.google.com/store/apps/details?id=com.app.fabricrootz',
-      appStoreUrl: "https://apps.apple.com/us/app/fabricz/id6763974574",
-      title: "Fabricz",
-      description:
-          "Fabric Rootz is a Brooklyn-based clothing company that produces clothing made for the formal or informal fashionista. We also specialize in fast local delivery and customer satisfaction globally.",
-      screenshots: [
-        AppImages.fabricz,
-        AppImages.fabriczGoogle,
-        AppImages.fabriczApple,
-      ],
-      technologies: ["Dart", "Flutter", "Firebase", "Rest API", "Stripe"],
-      // githubUrl: "",
-    ),
-
-    ProjectModel(
-      published: true,
-      number: "04",
-      playStoreUrl: '',
+      // playStoreUrl: '',
       appStoreUrl:
           "https://apps.apple.com/us/app/cr-tec-%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA%D9%83/id6775363864",
       title: "Cr Tec",
@@ -85,6 +67,24 @@ class ProjectData {
         "Stripe",
         "Google Map",
       ],
+      // githubUrl: "",
+    ),
+
+    ProjectModel(
+      published: true,
+      number: "04",
+      playStoreUrl:
+          'https://play.google.com/store/apps/details?id=com.app.fabricrootz',
+      appStoreUrl: "https://apps.apple.com/us/app/fabricz/id6763974574",
+      title: "Fabricz",
+      description:
+          "Fabric Rootz is a Brooklyn-based clothing company that produces clothing made for the formal or informal fashionista. We also specialize in fast local delivery and customer satisfaction globally.",
+      screenshots: [
+        AppImages.fabricz,
+        AppImages.fabriczGoogle,
+        AppImages.fabriczApple,
+      ],
+      technologies: ["Dart", "Flutter", "Firebase", "Rest API", "Stripe"],
       // githubUrl: "",
     ),
 

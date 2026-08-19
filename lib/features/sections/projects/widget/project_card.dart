@@ -227,7 +227,7 @@ class _ProjectContent extends StatelessWidget {
         Row(
           children: [
             FilledButton.icon(
-              onPressed: () => UrlService.open(project.playStoreUrl),
+              onPressed: () => UrlService.open(project.playStoreUrl ?? ''),
               icon: const Icon(Icons.launch),
               label: const Text("Play Store"),
             ),
@@ -235,7 +235,7 @@ class _ProjectContent extends StatelessWidget {
             const SizedBox(width: 16),
 
             FilledButton.icon(
-              onPressed: () => UrlService.open(project.appStoreUrl),
+              onPressed: () => UrlService.open(project.appStoreUrl ?? ''),
               icon: const Icon(Icons.launch),
               label: const Text("App Store"),
             ),

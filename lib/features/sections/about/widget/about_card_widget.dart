@@ -37,7 +37,7 @@ class AboutContent extends StatelessWidget {
           children: const [
             _InfoCard(title: "Experience", value: "2+ Years"),
             _InfoCard(title: "Projects", value: "20+"),
-            _InfoCard(title: "Live Apps", value: "20+"),
+            _InfoCard(title: "Live Apps", value: "7+"),
             _InfoCard(title: "Platforms", value: "Android • iOS • Web"),
           ],
         ),
