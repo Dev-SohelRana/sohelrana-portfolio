@@ -7,10 +7,10 @@ class AboutImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: .85,
+      aspectRatio: .960,
       child: ClipRRect(
         borderRadius: BorderRadius.circular(24),
-        child: Image.asset(AppImages.profileImage, fit: BoxFit.cover),
+        child: Image.asset(AppImages.portfolioBanner, fit: BoxFit.cover),
       ),
     );
   }

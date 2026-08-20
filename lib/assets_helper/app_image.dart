@@ -4,6 +4,7 @@ class AppImages {
 
   static const String logo = '$_basePath/logo.svg';
   static const String profileImage = '$_basePath/profileImage.png';
+  static const String portfolioBanner = '$_basePath/portfolioBanner.png';
   static const String lovewell = '$_basePath/lovewell.png';
   static const String lovewellGoogle = '$_basePath/lovewellGoogle.png';
   static const String lovewellApple = '$_basePath/lovewellApple.png';

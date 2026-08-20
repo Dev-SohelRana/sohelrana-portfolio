@@ -6,9 +6,9 @@
 //     final Uri url;
 
 //     if (kIsWeb) {
-//       url = Uri.parse('assets/assets/resume/report.pdf');
+//       url = Uri.parse('assets/assets/resume/resume.pdf');
 //     } else {
-//       url = Uri.parse('https://your-domain.com/report.pdf');
+//       url = Uri.parse('https://your-domain.com/resume.pdf');
 //     }
 
 //     if (await canLaunchUrl(url)) {
