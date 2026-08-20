@@ -28018,9 +28018,8 @@ if(a==null)s=b
 else s=a
 return s},
 aGi(){var s=document.createElement("a")
-s.href="/resume/resume.pdf"
-s.target="_blank"
-s.download="resume.pdf"
+s.href="assets/assets/resume/resume.pdf"
+s.download="Resume_Sohel.pdf"
 s.click()},
 jk(a){var s=0,r=A.M(t.H),q
 var $async$jk=A.H(function(b,c){if(b===1)return A.J(c,r)
