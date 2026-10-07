@@ -25,4 +25,11 @@ class AppImages {
   static const String lyvi = '$_basePath/lyvi.png';
   static const String lyviGoogle = '$_basePath/lyviGoogle.png';
   static const String lyviApple = '$_basePath/lyviApple.png';
+  static const String jackOne = '$_basePath/jackOne.png';
+  static const String jackTwo = '$_basePath/jackTwo.png';
+  static const String jackThree = '$_basePath/jackThree.png';
+  static const String jackFour = '$_basePath/jackFour.png';
+  static const String connorOne = '$_basePath/connorOne.png';
+  static const String connorTwo = '$_basePath/connorTwo.png';
+  static const String connorThree = '$_basePath/connorThree.png';
 }

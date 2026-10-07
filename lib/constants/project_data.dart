@@ -138,5 +138,47 @@ class ProjectData {
       technologies: ["Dart", "Flutter", "Firebase", "Rest API", "RevenueCat"],
       // githubUrl: "",
     ),
+
+    ProjectModel(
+      published: false,
+      number: "08",
+      playStoreUrl: "",
+      appStoreUrl: "",
+      title: "Roost Crew",
+      description:
+          "Developed a feature-rich dirt bike performance tracking app using Flutter, focusing on ride tracking, real-time performance metrics, lap timing, speed monitoring, and social competition features. Implemented a responsive UI, data-driven ride analytics, leaderboards, and seamless user interactions to deliver a high-performance mobile experience.",
+      screenshots: [
+        AppImages.jackOne,
+        AppImages.jackTwo,
+        AppImages.jackThree,
+        AppImages.jackFour,
+      ],
+      technologies: [
+        "Dart",
+        "Flutter",
+        "Firebase",
+        "Rest API",
+        "Google Maps",
+        "Live Tracking",
+      ],
+      // githubUrl: "",
+    ),
+
+    ProjectModel(
+      published: false,
+      number: "09",
+      playStoreUrl: "",
+      appStoreUrl: "",
+      title: "Building Assurance",
+      description:
+          "Developed a comprehensive property inspection and reporting application using Flutter, designed to streamline the inspection workflow from property assessment to detailed reporting. Implemented inspection modules covering roofing, plumbing, electrical systems, weather tightness, foundations, interiors, site improvements, pests, and health & safety. Built structured inspection forms, traffic-light concern levels, defect reporting, notes, and safety checklists to help inspectors efficiently capture and communicate critical property information.",
+      screenshots: [
+        AppImages.connorOne,
+        AppImages.connorTwo,
+        AppImages.connorThree,
+      ],
+      technologies: ["Dart", "Flutter", "Firebase", "Rest API"],
+      // githubUrl: "",
+    ),
   ];
 }

@@ -123,7 +123,7 @@ class _ProjectImageState extends State<_ProjectImage> {
                 itemBuilder: (_, index) {
                   return Image.asset(
                     widget.screenshots[index],
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fitWidth,
                   );
                 },
               ),
