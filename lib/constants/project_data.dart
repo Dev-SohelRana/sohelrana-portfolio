@@ -9,6 +9,7 @@ class ProjectData {
       title: "StepAhead Health",
       published: true,
       screenshots: [
+        AppImages.stepAheadThumbnail,
         AppImages.stepAhead,
         AppImages.stepAheadGoogle,
         AppImages.stepAheadApple,

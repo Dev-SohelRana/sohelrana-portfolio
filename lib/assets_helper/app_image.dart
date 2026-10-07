@@ -8,6 +8,7 @@ class AppImages {
   static const String lovewell = '$_basePath/lovewell.png';
   static const String lovewellGoogle = '$_basePath/lovewellGoogle.png';
   static const String lovewellApple = '$_basePath/lovewellApple.png';
+  static const String stepAheadThumbnail = '$_basePath/stepAheadThumbnail.png';
   static const String stepAhead = '$_basePath/stepAhead.png';
   static const String stepAheadGoogle = '$_basePath/stepAheadGoogle.png';
   static const String stepAheadApple = '$_basePath/stepAheadApple.png';
