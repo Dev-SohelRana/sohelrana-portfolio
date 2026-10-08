@@ -34,6 +34,7 @@ class ProjectData {
       description:
           "Random Habit is a unique habit-building app designed around how your brain actually creates lasting change. Instead of fixed schedules and streaks, it uses random reminders to help you complete one small action at a time, making habits easier to build and maintain. Whether you want to improve your fitness, mindfulness, confidence, or daily routines, Random Habit helps you create meaningful, long-term behaviour change—without guilt, pressure, or subscriptions. One small step, repeated consistently, can transform your life.",
       screenshots: [
+        AppImages.randomHabitMockup,
         AppImages.randomHabit,
         AppImages.randomHabitGoogle,
         AppImages.randomHabitApple,
@@ -59,7 +60,11 @@ class ProjectData {
       title: "Cr Tec",
       description:
           "CR Tec is a digital platform that simplifies the entire vehicle maintenance journey, making it easier to manage every step from creating a service request to collecting your repaired vehicle. Designed for both customers and workshops, the app brings everything together in one place for a faster, more transparent, and hassle-free experience. Customers can submit maintenance requests by entering their vehicle details and describing the issue or accident. They can then track the progress of their request in real time, receive detailed inspection s, review repair estimates and completion timelines, compare workshop quotations, and choose the option that best suits their needs. By connecting vehicle owners, repair workshops, and spare parts providers on a single platform, CR Tec improves communication, streamlines workflows, and increases transparency throughout the repair process. Whether you need routine maintenance or major repairs, CR Tec helps you access trusted automotive services with greater convenience, efficiency, and confidence.",
-      screenshots: [AppImages.crTec, AppImages.crTecApple],
+      screenshots: [
+        AppImages.crTecMockup,
+        AppImages.crTec,
+        AppImages.crTecApple,
+      ],
       technologies: [
         "Dart",
         "Flutter",
@@ -81,6 +86,7 @@ class ProjectData {
       description:
           "Fabric Rootz is a Brooklyn-based clothing company that produces clothing made for the formal or informal fashionista. We also specialize in fast local delivery and customer satisfaction globally.",
       screenshots: [
+        AppImages.fabriczMockup,
         AppImages.fabricz,
         AppImages.fabriczGoogle,
         AppImages.fabriczApple,
@@ -99,6 +105,7 @@ class ProjectData {
       description:
           "Unpuff is your personal companion for quitting smoking and building a healthier, smoke-free life. Whether you're taking your first step or trying again, Unpuff helps you stay focused with simple daily guidance, progress tracking, and positive encouragement—without guilt, pressure, or unrealistic expectations. Track your smoke-free journey, log cravings, understand your triggers, and watch your health improve while seeing the money you save over time. With daily motivation and practical tools, Unpuff helps you replace smoking with healthier habits and stay committed even when motivation fades. More than just a quit-smoking tracker, Unpuff is built to create lasting behavioural change. Every small victory moves you closer to a healthier future, and every setback is simply another opportunity to keep going. Because quitting isn't about being perfect—it's about making consistent progress, one day at a time.",
       screenshots: [
+        AppImages.unpuffMockup,
         AppImages.unpuff,
         AppImages.unpuffGoogle,
         AppImages.unpuffApple,
@@ -116,7 +123,12 @@ class ProjectData {
       title: "Lyvi",
       description:
           "Lyvi is a roommate-matching platform built for college students and recent graduates moving to new cities. It helps users find compatible roommates based on lifestyle, education, career goals, and personal preferences, making it easier to build meaningful connections before moving in. Unlike traditional roommate-finding apps, Lyvi focuses on compatibility rather than just availability, helping create safer, more comfortable, and long-lasting living arrangements. Whether you're starting university, beginning a new job, or relocating for a fresh opportunity, Lyvi makes finding the right roommate simple, secure, and stress-free.",
-      screenshots: [AppImages.lyvi, AppImages.lyviGoogle, AppImages.lyviApple],
+      screenshots: [
+        AppImages.lyviMockup,
+        AppImages.lyvi,
+        AppImages.lyviGoogle,
+        AppImages.lyviApple,
+      ],
       technologies: ["Dart", "Flutter", "Firebase", "Rest API"],
       // githubUrl: "",
     ),
