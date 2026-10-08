@@ -144,6 +144,7 @@ class ProjectData {
       description:
           "LoveWell Parenting helps parents of school-age children, tweens, and teens build responsibility, healthy communication, and positive habits without constant conflict or power struggles. Using proven positive-discipline strategies, the app makes it easy to set clear expectations, encourage independence, and create a more peaceful home environment. Create customized rules, responsibilities, and reward systems, track your child's progress, and receive personalised guidance from an AI Parenting Coach available 24/7. With behaviour insights, progress tracking, and practical parenting tools, LoveWell helps you stay consistent while supporting your child's emotional and personal growth. Whether you're managing daily routines, improving communication, or encouraging better behaviour, LoveWell provides the structure and support you need to parent with confidence. Build stronger family relationships, reduce stress, and create lasting positive change—one day at a time.",
       screenshots: [
+        AppImages.lovewellMockup,
         AppImages.lovewell,
         AppImages.lovewellGoogle,
         AppImages.lovewellApple,
