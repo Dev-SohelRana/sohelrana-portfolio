@@ -132,14 +132,15 @@ class _ProjectImageState extends State<_ProjectImage> {
 
           const SizedBox(height: 18),
 
-          /// Thumbnail Gallery
+          /// Thumbnail Gallery (fixed thumb width so the list is scrollable)
           SizedBox(
             height: 60,
             child: ListView.separated(
-              shrinkWrap: true,
+              padding: const EdgeInsets.symmetric(horizontal: 6),
               scrollDirection: Axis.horizontal,
+              physics: const BouncingScrollPhysics(),
               itemCount: widget.screenshots.length,
-              separatorBuilder: (_, __) => const SizedBox(width: 12),
+              separatorBuilder: (_, __) => const SizedBox(width: 12.0),
               itemBuilder: (_, index) {
                 final selected = currentIndex == index;
 
@@ -148,7 +149,7 @@ class _ProjectImageState extends State<_ProjectImage> {
                   onTap: () => _changePage(index),
                   child: AnimatedContainer(
                     duration: const Duration(milliseconds: 250),
-                    width: 110,
+                    width: 100.0,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(14),
                       border: Border.all(
