@@ -3,6 +3,7 @@ class ExperienceModel {
   final String company;
   final String duration;
   final String description;
+  final List<String> skills;
   final bool current;
 
   const ExperienceModel({
@@ -10,6 +11,7 @@ class ExperienceModel {
     required this.company,
     required this.duration,
     required this.description,
+    this.skills = const [],
     this.current = false,
   });
 }

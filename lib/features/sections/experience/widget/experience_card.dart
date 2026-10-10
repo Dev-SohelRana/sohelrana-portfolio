@@ -115,15 +115,9 @@ class ExperienceCard extends StatelessWidget {
                 Wrap(
                   spacing: 10,
                   runSpacing: 10,
-                  children: [
-                    Chip(label: const Text("Flutter")),
-
-                    Chip(label: const Text("Firebase")),
-
-                    Chip(label: const Text("REST API")),
-
-                    Chip(label: const Text("Clean Architecture")),
-                  ],
+                  children: experience.skills
+                      .map((skill) => Chip(label: Text(skill)))
+                      .toList(),
                 ),
               ],
             ),
