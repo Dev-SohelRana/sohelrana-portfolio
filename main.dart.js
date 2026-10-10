@@ -400,7 +400,7 @@ break
 default:s=null}s=A.a8(s,t.N)
 return s},
 aVZ(){var s=A.d0().b,r=s==null?null:s.canvasKitVariant
-s=A.aYD(A.aPC(B.J5,r==null?"auto":r))
+s=A.aYD(A.aPC(B.J4,r==null?"auto":r))
 return new A.ah(s,new A.axa(),A.aa(s).i("ah<1,q>"))},
 aXU(a,b){return b+a},
 a16(){var s=0,r=A.M(t.m),q,p,o,n
@@ -11904,7 +11904,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.bq(s,200)
 r=A.bq(A.a5d(l,B.ox,B.Is),24)
-q=A.bq(A.a5d(l,B.ox,B.Je),32)
+q=A.bq(A.a5d(l,B.ox,B.Jd),32)
 p=A.bq(l.a,10)
 o=A.bq(l.a,12)
 l.d===$&&A.a()
@@ -20230,7 +20230,7 @@ r.toString
 A.eB(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.nl(s,r,B.IX[A.e5(q)])},
+return new A.nl(s,r,B.IW[A.e5(q)])},
 Di:function Di(a,b){this.a=a
 this.b=b},
 nl:function nl(a,b,c){this.a=a
@@ -22425,7 +22425,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aPs(a,b){var s=A.aa(b).i("ah<1,dA>")
 s=A.a8(new A.ah(b,new A.a66(),s),s.i("aF.E"))
-return A.aOQ(!0,s,a,B.Jy,!0,B.Ez,null)},
+return A.aOQ(!0,s,a,B.Jx,!0,B.Ez,null)},
 azG(a){var s
 try{a.du()}catch(s){a.OP()}a.w=B.YI
 try{a.be(A.aYA())}catch(s){}},
@@ -23067,7 +23067,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 aA1(a,b){var s
-if(a.j(0,b))return new A.K8(B.Jz)
+if(a.j(0,b))return new A.K8(B.Jy)
 s=A.b([],t.fJ)
 A.c3()
 a.ne(new A.a9y(b,A.aE(t.u),s))
@@ -28268,7 +28268,7 @@ $S:2}
 A.axa.prototype={
 $1(a){var s=A.d0().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/692136cb6582dbfc5af3fb33c2515a069f2f66d0/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/":s)+a},
 $S:209}
 A.Nr.prototype={
 gv(a){var s=this.a
@@ -29093,7 +29093,7 @@ w0(){var s=this.as
 s===$&&A.a()
 return s},
 w1(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Jx
+if(a<0||b<0)return B.Jw
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -29112,7 +29112,7 @@ l.push(new A.e4(n[0],n[1],n[2],n[3],B.kw[m]))}return l},
 cR(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.J_[J.aq(s.affinity.value)]
+r=B.IZ[J.aq(s.affinity.value)]
 return new A.ac(J.aq(s.pos),r)},
 L2(a){var s=this.a
 s===$&&A.a()
@@ -29357,7 +29357,7 @@ if(b==null)return!1
 if(!(b instanceof A.tS))return!1
 return b.d===s.d&&J.d(b.a,s.a)&&b.b==s.b&&A.fB(b.c,s.c)},
 gv(a){var s=this,r=s.c
-return A.Q(s.d,s.a,s.b,A.bp(r==null?B.Jw:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.Q(s.d,s.a,s.b,A.bp(r==null?B.Jv:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $ifQ:1}
 A.yl.prototype={
 Uw(a,b){var s=this.Oj(a),r=A.aZ(new A.a39(this,b,s))
@@ -29899,7 +29899,7 @@ p.toString
 p=p>0}else p=!1
 if(p)return q}o=this.a9D(a,b)
 if(o.length===1)return B.b.gS(o)
-for(r=0;r<7;++r){q=A.aEs(o,new A.a72(B.Iy[r]))
+for(r=0;r<7;++r){q=A.aEs(o,new A.a72(B.Ix[r]))
 if(q!=null)return q}return B.b.gS(o)},
 aao(a){var s,r,q
 if(B.hP.av(0,a)){s=B.hP.h(0,a)
@@ -34550,7 +34550,7 @@ if(r.f!==B.o8){r.f=B.o8
 r.QW()}}return r.d.a.a0H(a)},
 QW(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a0G(a){if(B.b.t(B.Jj,a))return this.f===B.hv
+a0G(a){if(B.b.t(B.Ji,a))return this.f===B.hv
 return!1}}
 A.a6E.prototype={
 $0(){return new A.hk(Date.now(),0,!1)},
@@ -41798,7 +41798,7 @@ if(s==null||s.length<b)s=this.c=new Uint8Array(b)
 return J.i2(B.z.gbL(s),s.byteOffset,b)}}
 A.an6.prototype={
 E(a,b){this.Dx(0,b,0,b.length,!1)},
-aK(a){this.Dx(0,B.Jn,0,0,!0)}}
+aK(a){this.Dx(0,B.Jm,0,0,!0)}}
 A.amN.prototype={
 Dx(a,b,c,d,e){var s=this.b.Wp(b,c,d,e)
 if(s!=null)this.a.E(0,A.Dg(s,0,null))
@@ -43819,7 +43819,7 @@ $1(a){A.aBu(a,"Cannot retrieve length of file",this.a.a)
 return a},
 $S:63}
 A.zC.prototype={
-k(a){return B.J4[this.a]}}
+k(a){return B.J3[this.a]}}
 A.f_.prototype={
 ql(a,b){return this.Op(0,b)},
 HQ(a){return this.ql(0,!1)}}
@@ -45500,7 +45500,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.IA[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Iz[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.au(r)
 r[0]=d+l>>>0
@@ -46816,7 +46816,7 @@ r=A.nc(B.MH,B.h,r==null?1:r)
 r.toString
 q=p.ai(0,q.gq(q))
 if(q==null)q=1
-return A.aH3(A.aG6(null,B.r,new A.ut(q,B.IT,new A.cP(B.B3,this.e)),s,1,B.QY),r)}}
+return A.aH3(A.aG6(null,B.r,new A.ut(q,B.IS,new A.cP(B.B3,this.e)),s,1,B.QY),r)}}
 A.Ig.prototype={
 l(){var s=this,r=s.bp$
 if(r!=null)r.K(0,s.gh4())
@@ -49954,7 +49954,7 @@ n=o.e
 o=o.cx
 r=q.gaeY()
 q.a.toString
-return new A.Ed(p,p,p,new A.aru(),p,p,p,p,p,n,B.LR,p,p,p,B.Jp,q.gaf5(),o,p,B.Ux,s,p,r,p,p,B.ow,!1,!1,p,p,p,new A.pw(q,t.bT))},
+return new A.Ed(p,p,p,new A.aru(),p,p,p,p,p,n,B.LR,p,p,p,B.Jo,q.gaf5(),o,p,B.Ux,s,p,r,p,p,B.ow,!1,!1,p,p,p,new A.pw(q,t.bT))},
 H(a){var s,r=this.a6R(a)
 this.a.toString
 s=this.d
@@ -50061,7 +50061,7 @@ A.w6.prototype={
 I(){return"_CornerId."+this.b}}
 A.m1.prototype={}
 A.uv.prototype={
-kV(){var s,r,q,p=this,o=A.aX6(B.Jc,new A.acN(p,p.b.gaX().Y(0,p.a.gaX()))),n=p.a
+kV(){var s,r,q,p=this,o=A.aX6(B.Jb,new A.acN(p,p.b.gaX().Y(0,p.a.gaX()))),n=p.a
 n.toString
 s=o.a
 r=p.pt(n,s)
@@ -50852,7 +50852,7 @@ A.aty.prototype={
 $2(a,b){return this.a.C$.c_(a,this.b)},
 $S:18}
 A.SU.prototype={
-gCl(){return B.Ix},
+gCl(){return B.Iw},
 Hc(a){var s
 switch(a.a){case 0:s=this.d.b
 break
@@ -54089,7 +54089,7 @@ A.atN.prototype={
 $0(){return A.b([],t.q1)},
 $S:238}
 A.TH.prototype={
-gCl(){return B.IH},
+gCl(){return B.IG},
 Hc(a){var s,r=this
 switch(a.a){case 0:s=r.d.ax
 break
@@ -54715,7 +54715,7 @@ return s.b}}
 A.jt.prototype={
 I(){return"_ListTileSlot."+this.b}}
 A.Vu.prototype={
-gCl(){return B.J7},
+gCl(){return B.J6},
 Hc(a){var s,r=this
 switch(a.a){case 0:s=r.d
 break
@@ -55453,7 +55453,7 @@ $3(a,b,c){return new A.oo(b,this.a,!1,c,null)},
 $S:119}
 A.Ob.prototype={
 a6k(a){var s=t.Tr
-s=A.a8(new A.ah(B.Jb,new A.aej(a),s),s.i("aF.E"))
+s=A.a8(new A.ah(B.Ja,new A.aej(a),s),s.i("aF.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -60468,7 +60468,7 @@ return new A.mS(r.a.cs(s.gih()),r.b,r.c)},
 cR(a){var s=this.b
 return s.a.c.cR(a.Y(0,s.gih()))},
 qc(){var s,r,q=this.b,p=q.gih()
-if(!isFinite(p.a)||!isFinite(p.b))return B.JB
+if(!isFinite(p.a)||!isFinite(p.b))return B.JA
 s=q.f
 if(s==null){s=q.a.c.qc()
 q.f=s}if(p.j(0,B.h))r=s
@@ -70187,7 +70187,7 @@ break
 case 1:return A.K(q,r)}})
 return A.L($async$Ex,r)},
 a9T(a,b){var s,r,q,p
-if(a===b)return B.Jv
+if(a===b)return B.Ju
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.iS(B.eR,a)
@@ -72217,7 +72217,7 @@ A.lx.prototype={}
 A.OA.prototype={
 lo(a,b,c){var s,r,q,p,o,n=$.a_.ae$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.C,r=0;r<2;++r){q=B.Jk[r]
+for(s=t.C,r=0;r<2;++r){q=B.Jj[r]
 p=n.e
 p.toString
 o=A.az6(p,q,s)
@@ -72329,7 +72329,7 @@ this.h5()}}
 A.nY.prototype={
 k(a){return"Entry#"+A.bs(this)+"("+this.d.k(0)+")"}}
 A.xR.prototype={
-al(){return new A.El(A.aE(t.me),B.Jo,null,null)},
+al(){return new A.El(A.aE(t.me),B.Jn,null,null)},
 avH(a,b){return this.w.$2(a,b)},
 asb(a,b){return this.x.$2(a,b)}}
 A.El.prototype={
@@ -74939,7 +74939,7 @@ h.Gn()
 r=h.gaaF()
 q=q.uR
 h.e!==$&&A.aW()
-h.e=new A.Q_(f,new A.ch(B.LB,l),new A.pU(),p,B.c9,0,k,h.gacZ(),h.gad0(),r,B.c9,0,j,h.gacT(),h.gacV(),r,i,B.JA,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.KM(),new A.KM())
+h.e=new A.Q_(f,new A.ch(B.LB,l),new A.pU(),p,B.c9,0,k,h.gacZ(),h.gad0(),r,B.c9,0,j,h.gacT(),h.gacV(),r,i,B.Jz,s,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.KM(),new A.KM())
 return h},
 xj(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -78562,7 +78562,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.S(b)!==A.t(s))return!1
 return b instanceof A.f0&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cw(null,null)},
-gv(a){return A.Q(this.a,this.b,null,this.d,A.bp(B.Ju),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gv(a){return A.Q(this.a,this.b,null,this.d,A.bp(B.Jt),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.qX(B.i.lC(this.a,16).toUpperCase(),5,"0")+")"}}
 A.pE.prototype={
 cb(a){return!this.w.j(0,a.w)},
@@ -79646,7 +79646,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.AZ(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.tI(a1),B.Js,e===!0,d,c,b,a3,A.aQT(a2))
+a=new A.AZ(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.tI(a1),B.Jr,e===!0,d,c,b,a3,A.aQT(a2))
 if(!a.j(0,a0.e))a0.ah(new A.arL(a0,a))},
 zu(){if(this.d==null)this.pY()},
 HX(){this.pY()},
@@ -79959,7 +79959,7 @@ r.V(0,s.ZH(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Jq[p]
+for(;!1;++p){o=B.Jp[p]
 n=l.c
 n.toString
 m=new A.hY(o.HE(n),null,!0,B.m8,B.bU,new A.rQ(new ($.a1r())(B.bU)),B.bU)
@@ -80302,7 +80302,7 @@ H(a){var s,r,q=this,p=null,o=q.gacv(),n=A.mQ(a),m=q.bw$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gL()==null){r=q.gNh()
-r=J.uf(r.slice(0),A.aa(r).c)}else r=B.Jr
+r=J.uf(r.slice(0),A.aa(r).c)}else r=B.Jq
 return new A.pz(p,new A.dD(new A.adW(q,a),A.AJ(B.bI,new A.Ji(!1,A.azN(A.pl(!0,p,A.E4(m,new A.uH(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),p,n),p),o,q.gafz(),p,p,o),p,t.w3),p)}}
 A.adV.prototype={
 $1(a){var s,r=this.a
@@ -85792,7 +85792,7 @@ r.yl()
 return s.aW()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gEz(),p=0;p<s.length;s.length===r||(0,A.x)(s),++p)s[p].K(0,q)
-o.b=B.Jt
+o.b=B.Js
 o.y=!1
 o.dh()},
 e3(a,b){return a.mz(b)},
@@ -91149,7 +91149,7 @@ A.a1B.prototype={
 $2(a,b){return A.d2(A.b([B.Pd,B.zt,b.b>=900?B.YD:B.Zk],t.p),B.Q,B.H)},
 $S:560}
 A.TO.prototype={
-H(a){return A.fX(B.Jg,B.ao,B.ax,B.H,0)}}
+H(a){return A.fX(B.Jf,B.ao,B.ax,B.H,0)}}
 A.VT.prototype={
 H(a){return B.E_}}
 A.Jf.prototype={
@@ -91170,7 +91170,7 @@ H(a){var s=null,r=$.J5()
 return A.cW(s,new A.jd(A.d2(A.b([B.Pg,B.zt,A.Na(new A.a3U())],t.p),B.Q,B.H),s),B.r,s,s,s,s,s,r,s,B.hc,s,s,s)}}
 A.a3U.prototype={
 $2(a,b){if(b.b>=950)return A.fX(A.b([B.FG,B.R7,A.ic(new A.w5(null),6)],t.p),B.ao,B.ax,B.H,0)
-return A.d2(B.II,B.Q,B.H)},
+return A.d2(B.IH,B.Q,B.H)},
 $S:215}
 A.T1.prototype={
 H(a){var s,r,q=null,p=A.V(a).ok.f
@@ -91315,7 +91315,7 @@ A.a6O.prototype={
 $2(a,b){return B.zs},
 $S:217}
 A.a6N.prototype={
-$2(a,b){return new A.tX(B.Iw[b],b===1,null)},
+$2(a,b){return new A.tX(B.JC[b],b===1,null)},
 $S:567}
 A.tX.prototype={
 H(a){var s,r,q,p,o=null,n=this.c,m=n.e,l=m?A.V(a).ax.b:B.k,k=t.p
@@ -91524,7 +91524,7 @@ else s=q<1000?2:3
 return new A.u4(new A.ajp(s,24,24,1.15),new A.vj(new A.ajk(),3,!0,!0,!0,A.aCb(),r),r,B.am,!1,r,r,B.kV,!0,r,r,3,B.ad,r,r,B.N,B.aq,r)},
 $S:572}
 A.ajk.prototype={
-$2(a,b){return new A.qW(B.IQ[b],null)},
+$2(a,b){return new A.qW(B.IP[b],null)},
 $S:573}
 A.NK.prototype={
 H(a){return new A.AS(B.Gh,"Sohel Rana",$.aKf(),!1,null)}}
@@ -95171,7 +95171,7 @@ B.a6=new A.alG()
 B.cm=new A.RB()
 B.mQ=new A.alH()
 B.e5=new A.RH(0,0,0,0)
-B.Js=s([],A.aw("B<b_x>"))
+B.Jr=s([],A.aw("B<b_x>"))
 B.a_c=new A.alO()
 B.bj={}
 B.uE=new A.bL(B.bj,[],t.li)
@@ -95330,8 +95330,8 @@ B.e4=new A.alM(1,"down")
 B.mh=new A.Jg(null)
 B.e_=new A.bU(null,40,null,null)
 B.mg=new A.Jf(null)
-B.IG=s([B.mh,B.e_,B.mg],t.p)
-B.E_=new A.p_(B.am,B.ax,B.H,B.Q,null,B.e4,null,0,B.IG,null)
+B.IF=s([B.mh,B.e_,B.mg],t.p)
+B.E_=new A.p_(B.am,B.ax,B.H,B.Q,null,B.e4,null,0,B.IF,null)
 B.E3=new A.KK(null)
 B.h3=new A.i8(0,"cut")
 B.h4=new A.i8(1,"copy")
@@ -95810,10 +95810,10 @@ B.Hs=new A.pQ(2,"top")
 B.oo=new A.pQ(3,"center")
 B.Ht=new A.pQ(4,"bottom")
 B.Hv=s([0,6,12,18],t.t)
-B.Jd=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
-B.IS=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
+B.Jc=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.IR=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.K8=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.Hx=s([B.Jd,B.IS,B.K8],t.zg)
+B.Hx=s([B.Jc,B.IR,B.K8],t.zg)
 B.oq=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.or=s([200,202],t.t)
 B.os=s([304],t.t)
@@ -95824,8 +95824,8 @@ B.GR=new A.jQ(B.GI,!1,0,"png")
 B.GG=new A.le(B.JO,B.GR,0,"png")
 B.JP=s([71,73,70,56,55,97],t.Z)
 B.GF=new A.le(B.JP,B.hy,1,"gif87a")
-B.Ja=s([71,73,70,56,57,97],t.Z)
-B.GE=new A.le(B.Ja,B.hy,2,"gif89a")
+B.J9=s([71,73,70,56,57,97],t.Z)
+B.GE=new A.le(B.J9,B.hy,2,"gif89a")
 B.Hy=s([255,216,255],t.Z)
 B.GJ=new A.mW(2,"jpeg")
 B.GV=new A.jQ(B.GJ,!1,3,"jpeg")
@@ -95840,10 +95840,10 @@ B.HY=s([B.GG,B.GF,B.GE,B.GH,B.GD,B.GC],A.aw("B<le>"))
 B.m9=new A.GP(0,"named")
 B.Ax=new A.GP(1,"anonymous")
 B.I6=s([B.m9,B.Ax],A.aw("B<GP>"))
-B.IU=s([0.41233895,0.35762064,0.18051042],t.n)
+B.IT=s([0.41233895,0.35762064,0.18051042],t.n)
 B.Iu=s([0.2126,0.7152,0.0722],t.n)
 B.K1=s([0.01932141,0.11916382,0.95034478],t.n)
-B.I8=s([B.IU,B.Iu,B.K1],t.zg)
+B.I8=s([B.IT,B.Iu,B.K1],t.zg)
 B.ot=s([0,4,12,1,5,13,3,7,15],t.t)
 B.Z2=new A.h8(0,1)
 B.Z7=new A.h8(0.5,1)
@@ -95864,32 +95864,29 @@ B.fs=new A.lP(3,"justify")
 B.b1=new A.lP(4,"start")
 B.it=new A.lP(5,"end")
 B.Il=s([B.c8,B.e0,B.d1,B.fs,B.b1,B.it],A.aw("B<lP>"))
-B.IE=s([2,1.13276676],t.n)
+B.ID=s([2,1.13276676],t.n)
 B.HB=s([2.18349805,1.20311921],t.n)
 B.JF=s([2.33888662,1.28698796],t.n)
 B.JI=s([2.48660575,1.36351941],t.n)
 B.Ip=s([2.62226596,1.44717976],t.n)
 B.Iv=s([2.7514899,1.53385819],t.n)
-B.J8=s([3.36298265,1.98288283],t.n)
-B.IJ=s([4.08649929,2.23811846],t.n)
-B.IZ=s([4.85481134,2.47563463],t.n)
+B.J7=s([3.36298265,1.98288283],t.n)
+B.II=s([4.08649929,2.23811846],t.n)
+B.IY=s([4.85481134,2.47563463],t.n)
 B.It=s([5.62945551,2.72948597],t.n)
-B.IF=s([6.43023796,2.98020421],t.n)
-B.ou=s([B.IE,B.HB,B.JF,B.JI,B.Ip,B.Iv,B.J8,B.IJ,B.IZ,B.It,B.IF],t.zg)
+B.IE=s([6.43023796,2.98020421],t.n)
+B.ou=s([B.ID,B.HB,B.JF,B.JI,B.Ip,B.Iv,B.J7,B.II,B.IY,B.It,B.IE],t.zg)
 B.In=s(["Arial"],t.s)
 B.Io=s([B.j2,B.j3],A.aw("B<y0>"))
 B.Iq=s(["-apple-system","BlinkMacSystemFont"],t.s)
 B.ov=s(["BlinkMacSystemFont"],t.s)
 B.Is=s([18,15,10,12,15,18,15,12,12],t.n)
-B.FJ=new A.zz("Flutter Developer","Softvence Agency, Betopia Group","April 2025 - Present","Building scalable Flutter applications for Android, iOS and Web with Clean Architecture and Firebase.",!0)
-B.FK=new A.zz("Flutter Developer Intern","CodeCell Limited","October 2024 - March 2025","Developed production-ready mobile applications for international clients using Flutter, REST APIs, Google Maps, Stripe and Firebase.",!1)
-B.Iw=s([B.FJ,B.FK],A.aw("B<zz>"))
 B.be=new A.kp(0,"label")
 B.aX=new A.kp(1,"avatar")
 B.bP=new A.kp(2,"deleteIcon")
-B.Ix=s([B.be,B.aX,B.bP],A.aw("B<kp>"))
-B.Iy=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
-B.IA=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.Iw=s([B.be,B.aX,B.bP],A.aw("B<kp>"))
+B.Ix=s(["Noto Color Emoji","Noto Sans Symbols","Noto Sans SC","Noto Sans TC","Noto Sans HK","Noto Sans JP","Noto Sans KR"],t.s)
+B.Iz=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.aL=new A.ey(0,"icon")
 B.aY=new A.ey(1,"input")
 B.a2=new A.ey(2,"label")
@@ -95901,9 +95898,9 @@ B.aQ=new A.ey(7,"suffixIcon")
 B.bD=new A.ey(8,"helperError")
 B.bE=new A.ey(9,"counter")
 B.cv=new A.ey(10,"container")
-B.IH=s([B.aL,B.aY,B.a2,B.b4,B.b5,B.b6,B.a9,B.aQ,B.bD,B.bE,B.cv],A.aw("B<ey>"))
+B.IG=s([B.aL,B.aY,B.a2,B.b4,B.b5,B.b6,B.a9,B.aQ,B.bD,B.bE,B.cv],A.aw("B<ey>"))
 B.Yz=new A.w5(null)
-B.II=s([B.Aa,B.e_,B.Yz],t.p)
+B.IH=s([B.Aa,B.e_,B.Yz],t.p)
 B.K9=new A.pR("en",null,"US")
 B.ow=s([B.K9],t.ss)
 B.ox=s([0,41,61,101,131,181,251,301,360],t.n)
@@ -95915,39 +95912,39 @@ B.YL=new A.m2(8,0.12)
 B.YK=new A.m2(12,0.14)
 B.oy=s([B.YJ,B.YO,B.YM,B.YN,B.YL,B.YK],A.aw("B<m2>"))
 B.oz=s([0,21,51,121,151,191,271,321,360],t.n)
-B.JC=s(["Flutter","Dart","Responsive UI","Material Design","Animations"],t.s)
-B.Rg=new A.vh("Frontend",B.JC)
+B.JB=s(["Flutter","Dart","Responsive UI","Material Design","Animations"],t.s)
+B.Rg=new A.vh("Frontend",B.JB)
 B.K4=s(["Firebase","REST API"],t.s)
 B.Rf=new A.vh("Backend",B.K4)
 B.JZ=s(["Git","GitHub","VS Code","Android Studio","Xcode"],t.s)
 B.Rh=new A.vh("Tools",B.JZ)
-B.IQ=s([B.Rg,B.Rf,B.Rh],A.aw("B<vh>"))
-B.IR=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.IP=s([B.Rg,B.Rf,B.Rh],A.aw("B<vh>"))
+B.IQ=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.B_=new A.JV(2,"outer")
 B.n5=new A.C(0.09803921568627451,0,0,0,B.e)
 B.h=new A.j(0,0)
 B.Bj=new A.dw(0.2,B.B_,B.n5,B.h,11)
-B.IT=s([B.Bj],t.sq)
+B.IS=s([B.Bj],t.sq)
 B.zC=new A.Di(0,"left")
 B.zD=new A.Di(1,"right")
-B.IX=s([B.zC,B.zD],A.aw("B<Di>"))
+B.IW=s([B.zC,B.zD],A.aw("B<Di>"))
 B.Z=new A.Dv(0,"upstream")
-B.J_=s([B.Z,B.j],A.aw("B<Dv>"))
+B.IZ=s([B.Z,B.j],A.aw("B<Dv>"))
 B.a8=new A.Dz(0,"rtl")
 B.P=new A.Dz(1,"ltr")
 B.kw=s([B.a8,B.P],A.aw("B<Dz>"))
-B.J4=s(["file","directory","link","unixDomainSock","pipe","notFound"],t.s)
+B.J3=s(["file","directory","link","unixDomainSock","pipe","notFound"],t.s)
 B.CA=new A.te(0,"auto")
 B.CB=new A.te(1,"full")
 B.CC=new A.te(2,"chromium")
-B.J5=s([B.CA,B.CB,B.CC],A.aw("B<te>"))
+B.J4=s([B.CA,B.CB,B.CC],A.aw("B<te>"))
 B.cw=new A.jt(0,"leading")
 B.bu=new A.jt(1,"title")
 B.cx=new A.jt(2,"subtitle")
 B.eb=new A.jt(3,"trailing")
-B.J7=s([B.cw,B.bu,B.cx,B.eb],A.aw("B<jt>"))
+B.J6=s([B.cw,B.bu,B.cx,B.eb],A.aw("B<jt>"))
 B.b0=new A.f3(1,"fuchsia")
-B.Jb=s([B.a7,B.b0,B.D,B.aV,B.ay,B.aW],A.aw("B<f3>"))
+B.Ja=s([B.a7,B.b0,B.D,B.aV,B.ay,B.aW],A.aw("B<f3>"))
 B.Ab=new A.w6(0,"topLeft")
 B.Ae=new A.w6(3,"bottomRight")
 B.YE=new A.m1(B.Ab,B.Ae)
@@ -95956,37 +95953,40 @@ B.Ac=new A.w6(1,"topRight")
 B.Ad=new A.w6(2,"bottomLeft")
 B.YF=new A.m1(B.Ac,B.Ad)
 B.YG=new A.m1(B.Ad,B.Ac)
-B.Jc=s([B.YE,B.YH,B.YF,B.YG],A.aw("B<m1>"))
-B.Je=s([35,30,20,25,30,35,30,25,25],t.n)
+B.Jb=s([B.YE,B.YH,B.YF,B.YG],A.aw("B<m1>"))
+B.Jd=s([35,30,20,25,30,35,30,25,25],t.n)
 B.FE=new A.mK(4,B.dD,B.mh,null)
 B.ir=new A.bU(60,null,null,null)
 B.FF=new A.mK(6,B.dD,B.mg,null)
-B.Jg=s([B.FE,B.ir,B.FF],t.p)
-B.Jj=s(["click","scroll"],t.s)
+B.Jf=s([B.FE,B.ir,B.FF],t.p)
+B.Ji=s(["click","scroll"],t.s)
 B.Bp=new A.t2()
 B.i4=new A.PS(1,"page")
 B.i5=new A.er(B.b8,B.i4)
-B.Jk=s([B.Bp,B.i5],A.aw("B<b4>"))
-B.Jv=s([],t.QP)
+B.Jj=s([B.Bp,B.i5],A.aw("B<b4>"))
+B.Ju=s([],t.QP)
 B.oD=s([],A.aw("B<b_d>"))
-B.Jy=s([],t.D)
-B.Jz=s([],t.fJ)
-B.JB=s([],t.ER)
+B.Jx=s([],t.D)
+B.Jy=s([],t.fJ)
+B.JA=s([],t.ER)
 B.a_n=s([],t.ss)
-B.Jp=s([],t.tc)
+B.Jo=s([],t.tc)
 B.hE=s([],t.jl)
-B.Jr=s([],t.wi)
-B.Jq=s([],A.aw("B<aFM<@>>"))
+B.Jq=s([],t.wi)
+B.Jp=s([],A.aw("B<aFM<@>>"))
 B.kx=s([],t.AO)
-B.Jt=s([],t.D1)
+B.Js=s([],t.D1)
 B.hF=s([],t.QF)
-B.Jx=s([],t.Lx)
-B.JA=s([],t.AS)
-B.Jo=s([],t.p)
-B.Jw=s([],t.n)
-B.Jn=s([],t.t)
+B.Jw=s([],t.Lx)
+B.Jz=s([],t.AS)
+B.Jn=s([],t.p)
+B.Jv=s([],t.n)
+B.Jm=s([],t.t)
 B.oC=s([],t.ee)
-B.Ju=s([],t._m)
+B.Jt=s([],t._m)
+B.FJ=new A.zz("Flutter Developer","Softvence Agency, Betopia Group","April 2025 - Present","Developed and published production-ready Flutter applications for international clients, integrating REST APIs, Firebase, Google Maps, Stripe, Apple In-App Purchases (IAP), RevenueCat, and push notifications, while delivering seamless cross-platform experiences for Android and iOS.",!0)
+B.FK=new A.zz("Flutter Developer Intern","CodeCell Limited","October 2024 - March 2025","Building scalable Flutter applications for Android, iOS and Web with Clean Architecture and Firebase.",!1)
+B.JC=s([B.FJ,B.FK],A.aw("B<zz>"))
 B.Z0=new A.m7("Experience","2+ Years",null)
 B.Z_=new A.m7("Projects","20+",null)
 B.Z1=new A.m7("Live Apps","7+",null)
@@ -96006,33 +96006,33 @@ B.Gr=new A.f0(61843,"MaterialIcons",!1)
 B.E2=new A.iU(B.Gr,"Location","Dhaka, Bangladesh")
 B.oE=s([B.E0,B.E1,B.E2],A.aw("B<iU>"))
 B.Ie=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.Jl=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.Jk=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.Ir=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.JT=s([B.Ie,B.Jl,B.Ir],t.zg)
+B.JT=s([B.Ie,B.Jk,B.Ir],t.zg)
 B.JU=s([45,95,45,20,45,90,45,45,45],t.n)
 B.JV=s([120,120,20,45,20,15,20,120,120],t.n)
-B.IW=s(["assets/images/stepAheadThumbnail.png","assets/images/stepAhead.png","assets/images/stepAheadGoogle.png","assets/images/stepAheadApple.png"],t.s)
+B.IV=s(["assets/images/stepAheadThumbnail.png","assets/images/stepAhead.png","assets/images/stepAheadGoogle.png","assets/images/stepAheadApple.png"],t.s)
 B.oF=s(["Dart","Flutter","Firebase","Rest API","Stripe"],t.s)
-B.Oi=new A.io("01","StepAhead Health","StepAhead Health's main aim is to support the ongoing solution to healthcare in the United States with the primary aim of assisting the deprived (those with no insurance and living in remote areas) to get access to better healthcare. StepAhead Health intend assist patients with no insurance by connecting them to Physicians in their respective states using the StepAhead Health App. Another goal for StepAhead Health is to provide alternative care delivery methods to reduce costs (by eliminating transportation costs and sharing resources between providers and patients) through the StepAheadHealth App. In addition to the above, if a patient needs prescription but has lost his job and does not have any insurance, this patient can request for prescription refill through the StepAheadHealth App.",!0,B.IW,B.oF,"https://play.google.com/store/apps/details?id=com.stepaheadhealth.app&pcampaignid=web_share","https://apps.apple.com/us/app/stepahead-health/id6444579218")
+B.Oi=new A.io("01","StepAhead Health","StepAhead Health's main aim is to support the ongoing solution to healthcare in the United States with the primary aim of assisting the deprived (those with no insurance and living in remote areas) to get access to better healthcare. StepAhead Health intend assist patients with no insurance by connecting them to Physicians in their respective states using the StepAhead Health App. Another goal for StepAhead Health is to provide alternative care delivery methods to reduce costs (by eliminating transportation costs and sharing resources between providers and patients) through the StepAheadHealth App. In addition to the above, if a patient needs prescription but has lost his job and does not have any insurance, this patient can request for prescription refill through the StepAheadHealth App.",!0,B.IV,B.oF,"https://play.google.com/store/apps/details?id=com.stepaheadhealth.app&pcampaignid=web_share","https://apps.apple.com/us/app/stepahead-health/id6444579218")
 B.JW=s(["assets/images/randomHabitMockup.png","assets/images/randomHabit.png","assets/images/randomHabitGoogle.png","assets/images/randomHabitApple.png"],t.s)
 B.JR=s(["Dart","Flutter","Firebase","REST API","Stripe","Apple IAP"],t.s)
 B.Og=new A.io("02","Random Habit","Random Habit is a unique habit-building app designed around how your brain actually creates lasting change. Instead of fixed schedules and streaks, it uses random reminders to help you complete one small action at a time, making habits easier to build and maintain. Whether you want to improve your fitness, mindfulness, confidence, or daily routines, Random Habit helps you create meaningful, long-term behaviour change\u2014without guilt, pressure, or subscriptions. One small step, repeated consistently, can transform your life.",!0,B.JW,B.JR,"https://play.google.com/store/apps/details?id=com.app.randomhabit","https://apps.apple.com/us/app/random-habit/id6759515256")
-B.Jf=s(["assets/images/crTecMockup.png","assets/images/crTec.png","assets/images/crTecApple.png"],t.s)
-B.ID=s(["Dart","Flutter","Firebase","Rest API","Stripe","Google Map"],t.s)
-B.Od=new A.io("03","Cr Tec","CR Tec is a digital platform that simplifies the entire vehicle maintenance journey, making it easier to manage every step from creating a service request to collecting your repaired vehicle. Designed for both customers and workshops, the app brings everything together in one place for a faster, more transparent, and hassle-free experience. Customers can submit maintenance requests by entering their vehicle details and describing the issue or accident. They can then track the progress of their request in real time, receive detailed inspection s, review repair estimates and completion timelines, compare workshop quotations, and choose the option that best suits their needs. By connecting vehicle owners, repair workshops, and spare parts providers on a single platform, CR Tec improves communication, streamlines workflows, and increases transparency throughout the repair process. Whether you need routine maintenance or major repairs, CR Tec helps you access trusted automotive services with greater convenience, efficiency, and confidence.",!0,B.Jf,B.ID,null,"https://apps.apple.com/us/app/cr-tec-%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA%D9%83/id6775363864")
+B.Je=s(["assets/images/crTecMockup.png","assets/images/crTec.png","assets/images/crTecApple.png"],t.s)
+B.IC=s(["Dart","Flutter","Firebase","Rest API","Stripe","Google Map"],t.s)
+B.Od=new A.io("03","Cr Tec","CR Tec is a digital platform that simplifies the entire vehicle maintenance journey, making it easier to manage every step from creating a service request to collecting your repaired vehicle. Designed for both customers and workshops, the app brings everything together in one place for a faster, more transparent, and hassle-free experience. Customers can submit maintenance requests by entering their vehicle details and describing the issue or accident. They can then track the progress of their request in real time, receive detailed inspection s, review repair estimates and completion timelines, compare workshop quotations, and choose the option that best suits their needs. By connecting vehicle owners, repair workshops, and spare parts providers on a single platform, CR Tec improves communication, streamlines workflows, and increases transparency throughout the repair process. Whether you need routine maintenance or major repairs, CR Tec helps you access trusted automotive services with greater convenience, efficiency, and confidence.",!0,B.Je,B.IC,null,"https://apps.apple.com/us/app/cr-tec-%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA%D9%83/id6775363864")
 B.Ib=s(["assets/images/fabriczMockup.png","assets/images/fabricz.png","assets/images/fabriczGoogle.png","assets/images/fabriczApple.png"],t.s)
 B.Ok=new A.io("04","Fabricz","Fabric Rootz is a Brooklyn-based clothing company that produces clothing made for the formal or informal fashionista. We also specialize in fast local delivery and customer satisfaction globally.",!0,B.Ib,B.oF,"https://play.google.com/store/apps/details?id=com.app.fabricrootz","https://apps.apple.com/us/app/fabricz/id6763974574")
-B.IC=s(["assets/images/unpuffMockup.png","assets/images/unpuff.png","assets/images/unpuffGoogle.png","assets/images/unpuffApple.png"],t.s)
+B.IB=s(["assets/images/unpuffMockup.png","assets/images/unpuff.png","assets/images/unpuffGoogle.png","assets/images/unpuffApple.png"],t.s)
 B.oA=s(["Dart","Flutter","Firebase","Rest API","RevenueCat"],t.s)
-B.Oj=new A.io("05","Unpuff","Unpuff is your personal companion for quitting smoking and building a healthier, smoke-free life. Whether you're taking your first step or trying again, Unpuff helps you stay focused with simple daily guidance, progress tracking, and positive encouragement\u2014without guilt, pressure, or unrealistic expectations. Track your smoke-free journey, log cravings, understand your triggers, and watch your health improve while seeing the money you save over time. With daily motivation and practical tools, Unpuff helps you replace smoking with healthier habits and stay committed even when motivation fades. More than just a quit-smoking tracker, Unpuff is built to create lasting behavioural change. Every small victory moves you closer to a healthier future, and every setback is simply another opportunity to keep going. Because quitting isn't about being perfect\u2014it's about making consistent progress, one day at a time.",!0,B.IC,B.oA,"https://play.google.com/store/apps/details?id=com.app.unpuff","https://apps.apple.com/us/app/unpuff/id6759361962")
-B.IV=s(["assets/images/lyviMockup.png","assets/images/lyvi.png","assets/images/lyviGoogle.png","assets/images/lyviApple.png"],t.s)
+B.Oj=new A.io("05","Unpuff","Unpuff is your personal companion for quitting smoking and building a healthier, smoke-free life. Whether you're taking your first step or trying again, Unpuff helps you stay focused with simple daily guidance, progress tracking, and positive encouragement\u2014without guilt, pressure, or unrealistic expectations. Track your smoke-free journey, log cravings, understand your triggers, and watch your health improve while seeing the money you save over time. With daily motivation and practical tools, Unpuff helps you replace smoking with healthier habits and stay committed even when motivation fades. More than just a quit-smoking tracker, Unpuff is built to create lasting behavioural change. Every small victory moves you closer to a healthier future, and every setback is simply another opportunity to keep going. Because quitting isn't about being perfect\u2014it's about making consistent progress, one day at a time.",!0,B.IB,B.oA,"https://play.google.com/store/apps/details?id=com.app.unpuff","https://apps.apple.com/us/app/unpuff/id6759361962")
+B.IU=s(["assets/images/lyviMockup.png","assets/images/lyvi.png","assets/images/lyviGoogle.png","assets/images/lyviApple.png"],t.s)
 B.op=s(["Dart","Flutter","Firebase","Rest API"],t.s)
-B.Oc=new A.io("06","Lyvi","Lyvi is a roommate-matching platform built for college students and recent graduates moving to new cities. It helps users find compatible roommates based on lifestyle, education, career goals, and personal preferences, making it easier to build meaningful connections before moving in. Unlike traditional roommate-finding apps, Lyvi focuses on compatibility rather than just availability, helping create safer, more comfortable, and long-lasting living arrangements. Whether you're starting university, beginning a new job, or relocating for a fresh opportunity, Lyvi makes finding the right roommate simple, secure, and stress-free.",!0,B.IV,B.op,"https://play.google.com/store/apps/details?id=com.app.lyvi","https://apps.apple.com/us/app/lyvi/id6772883654")
-B.Iz=s(["assets/images/lovewellMockup.png","assets/images/lovewell.png","assets/images/lovewellGoogle.png","assets/images/lovewellApple.png"],t.s)
-B.Oe=new A.io("07","LoveWell Parenting","LoveWell Parenting helps parents of school-age children, tweens, and teens build responsibility, healthy communication, and positive habits without constant conflict or power struggles. Using proven positive-discipline strategies, the app makes it easy to set clear expectations, encourage independence, and create a more peaceful home environment. Create customized rules, responsibilities, and reward systems, track your child's progress, and receive personalised guidance from an AI Parenting Coach available 24/7. With behaviour insights, progress tracking, and practical parenting tools, LoveWell helps you stay consistent while supporting your child's emotional and personal growth. Whether you're managing daily routines, improving communication, or encouraging better behaviour, LoveWell provides the structure and support you need to parent with confidence. Build stronger family relationships, reduce stress, and create lasting positive change\u2014one day at a time.",!0,B.Iz,B.oA,"https://play.google.com/store/apps/details?id=com.app.lovewellme","https://apps.apple.com/us/app/lovewell-parenting/id6761257091")
+B.Oc=new A.io("06","Lyvi","Lyvi is a roommate-matching platform built for college students and recent graduates moving to new cities. It helps users find compatible roommates based on lifestyle, education, career goals, and personal preferences, making it easier to build meaningful connections before moving in. Unlike traditional roommate-finding apps, Lyvi focuses on compatibility rather than just availability, helping create safer, more comfortable, and long-lasting living arrangements. Whether you're starting university, beginning a new job, or relocating for a fresh opportunity, Lyvi makes finding the right roommate simple, secure, and stress-free.",!0,B.IU,B.op,"https://play.google.com/store/apps/details?id=com.app.lyvi","https://apps.apple.com/us/app/lyvi/id6772883654")
+B.Iy=s(["assets/images/lovewellMockup.png","assets/images/lovewell.png","assets/images/lovewellGoogle.png","assets/images/lovewellApple.png"],t.s)
+B.Oe=new A.io("07","LoveWell Parenting","LoveWell Parenting helps parents of school-age children, tweens, and teens build responsibility, healthy communication, and positive habits without constant conflict or power struggles. Using proven positive-discipline strategies, the app makes it easy to set clear expectations, encourage independence, and create a more peaceful home environment. Create customized rules, responsibilities, and reward systems, track your child's progress, and receive personalised guidance from an AI Parenting Coach available 24/7. With behaviour insights, progress tracking, and practical parenting tools, LoveWell helps you stay consistent while supporting your child's emotional and personal growth. Whether you're managing daily routines, improving communication, or encouraging better behaviour, LoveWell provides the structure and support you need to parent with confidence. Build stronger family relationships, reduce stress, and create lasting positive change\u2014one day at a time.",!0,B.Iy,B.oA,"https://play.google.com/store/apps/details?id=com.app.lovewellme","https://apps.apple.com/us/app/lovewell-parenting/id6761257091")
 B.K5=s(["assets/images/jackOne.png","assets/images/jackTwo.png","assets/images/jackThree.png","assets/images/jackFour.png"],t.s)
-B.IY=s(["Dart","Flutter","Firebase","Rest API","Google Maps","Live Tracking"],t.s)
-B.Oh=new A.io("08","Roost Crew","Developed a feature-rich dirt bike performance tracking app using Flutter, focusing on ride tracking, real-time performance metrics, lap timing, speed monitoring, and social competition features. Implemented a responsive UI, data-driven ride analytics, leaderboards, and seamless user interactions to deliver a high-performance mobile experience.",!1,B.K5,B.IY,"","")
+B.IX=s(["Dart","Flutter","Firebase","Rest API","Google Maps","Live Tracking"],t.s)
+B.Oh=new A.io("08","Roost Crew","Developed a feature-rich dirt bike performance tracking app using Flutter, focusing on ride tracking, real-time performance metrics, lap timing, speed monitoring, and social competition features. Implemented a responsive UI, data-driven ride analytics, leaderboards, and seamless user interactions to deliver a high-performance mobile experience.",!1,B.K5,B.IX,"","")
 B.K_=s(["assets/images/connorOne.png","assets/images/connorTwo.png","assets/images/connorThree.png"],t.s)
 B.Of=new A.io("09","Building Assurance","Developed a comprehensive property inspection and reporting application using Flutter, designed to streamline the inspection workflow from property assessment to detailed reporting. Implemented inspection modules covering roofing, plumbing, electrical systems, weather tightness, foundations, interiors, site improvements, pests, and health & safety. Built structured inspection forms, traffic-light concern levels, defect reporting, notes, and safety checklists to help inspectors efficiently capture and communicate critical property information.",!1,B.K_,B.op,"","")
 B.JX=s([B.Oi,B.Og,B.Od,B.Ok,B.Oj,B.Oc,B.Oe,B.Oh,B.Of],A.aw("B<io>"))
@@ -96603,28 +96603,28 @@ B.I1=s([54,null,null,8589935158],t.Z)
 B.I2=s([55,null,null,8589935159],t.Z)
 B.I3=s([56,null,null,8589935160],t.Z)
 B.I5=s([57,null,null,8589935161],t.Z)
-B.J0=s([8589934852,8589934852,8589934853,null],t.Z)
+B.J_=s([8589934852,8589934852,8589934853,null],t.Z)
 B.HE=s([4294967555,null,4294967555,null],t.Z)
 B.HF=s([4294968065,null,null,8589935154],t.Z)
 B.HG=s([4294968066,null,null,8589935156],t.Z)
 B.HH=s([4294968067,null,null,8589935158],t.Z)
 B.HI=s([4294968068,null,null,8589935160],t.Z)
 B.HN=s([4294968321,null,null,8589935157],t.Z)
-B.J1=s([8589934848,8589934848,8589934849,null],t.Z)
+B.J0=s([8589934848,8589934848,8589934849,null],t.Z)
 B.HD=s([4294967423,null,null,8589935150],t.Z)
 B.HJ=s([4294968069,null,null,8589935153],t.Z)
 B.HC=s([4294967309,null,null,8589935117],t.Z)
 B.HK=s([4294968070,null,null,8589935159],t.Z)
 B.HO=s([4294968327,null,null,8589935152],t.Z)
-B.J2=s([8589934854,8589934854,8589934855,null],t.Z)
+B.J1=s([8589934854,8589934854,8589934855,null],t.Z)
 B.HL=s([4294968071,null,null,8589935155],t.Z)
 B.HM=s([4294968072,null,null,8589935161],t.Z)
-B.J3=s([8589934850,8589934850,8589934851,null],t.Z)
-B.uI=new A.di(["*",B.HP,"+",B.HQ,"-",B.HR,".",B.HS,"/",B.HT,"0",B.HU,"1",B.HV,"2",B.HX,"3",B.HZ,"4",B.I_,"5",B.I0,"6",B.I1,"7",B.I2,"8",B.I3,"9",B.I5,"Alt",B.J0,"AltGraph",B.HE,"ArrowDown",B.HF,"ArrowLeft",B.HG,"ArrowRight",B.HH,"ArrowUp",B.HI,"Clear",B.HN,"Control",B.J1,"Delete",B.HD,"End",B.HJ,"Enter",B.HC,"Home",B.HK,"Insert",B.HO,"Meta",B.J2,"PageDown",B.HL,"PageUp",B.HM,"Shift",B.J3],A.aw("di<q,N<n?>>"))
+B.J2=s([8589934850,8589934850,8589934851,null],t.Z)
+B.uI=new A.di(["*",B.HP,"+",B.HQ,"-",B.HR,".",B.HS,"/",B.HT,"0",B.HU,"1",B.HV,"2",B.HX,"3",B.HZ,"4",B.I_,"5",B.I0,"6",B.I1,"7",B.I2,"8",B.I3,"9",B.I5,"Alt",B.J_,"AltGraph",B.HE,"ArrowDown",B.HF,"ArrowLeft",B.HG,"ArrowRight",B.HH,"ArrowUp",B.HI,"Clear",B.HN,"Control",B.J0,"Delete",B.HD,"End",B.HJ,"Enter",B.HC,"Home",B.HK,"Insert",B.HO,"Meta",B.J1,"PageDown",B.HL,"PageUp",B.HM,"Shift",B.J2],A.aw("di<q,N<n?>>"))
 B.I4=s([B.oO,null,null,B.uu],t.L)
 B.JD=s([B.ug,null,null,B.uv],t.L)
-B.IB=s([B.uh,null,null,B.uw],t.L)
-B.J6=s([B.ui,null,null,B.cP],t.L)
+B.IA=s([B.uh,null,null,B.uw],t.L)
+B.J5=s([B.ui,null,null,B.cP],t.L)
 B.Hu=s([B.uj,null,null,B.ux],t.L)
 B.JQ=s([B.uk,null,null,B.kI],t.L)
 B.JN=s([B.ul,null,null,B.f0],t.L)
@@ -96638,32 +96638,32 @@ B.JE=s([B.us,null,null,B.cT],t.L)
 B.JG=s([B.ut,null,null,B.f3],t.L)
 B.If=s([B.eZ,B.eZ,B.hM,null],t.L)
 B.JS=s([B.hI,null,B.hI,null],t.L)
-B.IK=s([B.bL,null,null,B.cQ],t.L)
-B.IL=s([B.bx,null,null,B.cR],t.L)
-B.IM=s([B.by,null,null,B.cS],t.L)
+B.IJ=s([B.bL,null,null,B.cQ],t.L)
+B.IK=s([B.bx,null,null,B.cR],t.L)
+B.IL=s([B.by,null,null,B.cS],t.L)
 B.JY=s([B.bM,null,null,B.cT],t.L)
 B.JK=s([B.kC,null,null,B.kJ],t.L)
 B.Ig=s([B.eY,B.eY,B.hL,null],t.L)
-B.Jh=s([B.aT,null,null,B.cP],t.L)
-B.IN=s([B.cM,null,null,B.f0],t.L)
+B.Jg=s([B.aT,null,null,B.cP],t.L)
+B.IM=s([B.cM,null,null,B.f0],t.L)
 B.I9=s([B.hH,null,null,B.kH],t.L)
-B.IO=s([B.cN,null,null,B.f2],t.L)
+B.IN=s([B.cN,null,null,B.f2],t.L)
 B.JL=s([B.eX,null,null,B.kI],t.L)
 B.Ih=s([B.f_,B.f_,B.hN,null],t.L)
-B.IP=s([B.eV,null,null,B.f1],t.L)
-B.Jm=s([B.eW,null,null,B.f3],t.L)
+B.IO=s([B.eV,null,null,B.f1],t.L)
+B.Jl=s([B.eW,null,null,B.f3],t.L)
 B.Ii=s([B.cq,B.cq,B.cO,null],t.L)
-B.LS=new A.di(["*",B.I4,"+",B.JD,"-",B.IB,".",B.J6,"/",B.Hu,"0",B.JQ,"1",B.JN,"2",B.Id,"3",B.K0,"4",B.JM,"5",B.Ia,"6",B.Hz,"7",B.Im,"8",B.JE,"9",B.JG,"Alt",B.If,"AltGraph",B.JS,"ArrowDown",B.IK,"ArrowLeft",B.IL,"ArrowRight",B.IM,"ArrowUp",B.JY,"Clear",B.JK,"Control",B.Ig,"Delete",B.Jh,"End",B.IN,"Enter",B.I9,"Home",B.IO,"Insert",B.JL,"Meta",B.Ih,"PageDown",B.IP,"PageUp",B.Jm,"Shift",B.Ii],A.aw("di<q,N<h?>>"))
+B.LS=new A.di(["*",B.I4,"+",B.JD,"-",B.IA,".",B.J5,"/",B.Hu,"0",B.JQ,"1",B.JN,"2",B.Id,"3",B.K0,"4",B.JM,"5",B.Ia,"6",B.Hz,"7",B.Im,"8",B.JE,"9",B.JG,"Alt",B.If,"AltGraph",B.JS,"ArrowDown",B.IJ,"ArrowLeft",B.IK,"ArrowRight",B.IL,"ArrowUp",B.JY,"Clear",B.JK,"Control",B.Ig,"Delete",B.Jg,"End",B.IM,"Enter",B.I9,"Home",B.IN,"Insert",B.JL,"Meta",B.Ih,"PageDown",B.IO,"PageUp",B.Jl,"Shift",B.Ii],A.aw("di<q,N<h?>>"))
 B.Mv={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.kO=new A.bL(B.Mv,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Mu={"zh-Hant":0,"zh-TW":1,"zh-MO":2,"zh-HK":3,ja:4,ko:5,zh:6,"zh-Hans":7,"zh-CN":8}
 B.kv=s(["Noto Sans TC"],t.s)
-B.J9=s(["Noto Sans HK","Noto Sans TC"],t.s)
+B.J8=s(["Noto Sans HK","Noto Sans TC"],t.s)
 B.I7=s(["Noto Sans JP"],t.s)
 B.HA=s(["Noto Sans KR"],t.s)
 B.oB=s(["Noto Sans SC"],t.s)
 B.K3=s(["Noto Sans SC","Noto Sans TC"],t.s)
-B.hP=new A.bL(B.Mu,[B.kv,B.kv,B.kv,B.J9,B.I7,B.HA,B.oB,B.oB,B.K3],t.VJ)
+B.hP=new A.bL(B.Mu,[B.kv,B.kv,B.kv,B.J8,B.I7,B.HA,B.oB,B.oB,B.K3],t.VJ)
 B.Mq={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.xE=new A.p(458907)
 B.xk=new A.p(458873)
@@ -97280,9 +97280,9 @@ B.z_=new A.eF([B.ai,B.aU,B.bN,B.b_,B.bl],t.Lu)
 B.DD=new A.C(0.23529411764705882,0,0,0,B.e)
 B.MI=new A.j(0,4)
 B.Bk=new A.dw(0.5,B.cA,B.DD,B.MI,10)
-B.Ji=s([B.Bk],t.sq)
+B.Jh=s([B.Bk],t.sq)
 B.OZ=new A.k9(B.j6,B.q)
-B.PX=new A.hM(null,null,null,B.Ji,B.OZ)
+B.PX=new A.hM(null,null,null,B.Jh,B.OZ)
 B.PY=new A.af(B.eX,!1,!0,!1,!1,B.m)
 B.z0=new A.af(B.kA,!1,!1,!1,!0,B.m)
 B.PZ=new A.af(B.oJ,!0,!1,!1,!1,B.m)
@@ -98278,7 +98278,7 @@ s($,"b3I","aMQ",()=>{var q="PlaceholderAlignment"
 return A.b([A.G(A.G(A.ap(),q),"Baseline"),A.G(A.G(A.ap(),q),"AboveBaseline"),A.G(A.G(A.ap(),q),"BelowBaseline"),A.G(A.G(A.ap(),q),"Top"),A.G(A.G(A.ap(),q),"Bottom"),A.G(A.G(A.ap(),q),"Middle")],t.O)})
 r($,"aWG","aMl",()=>A.aW5())
 r($,"b3y","aMK",()=>A.d0().gWW()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
-s($,"b30","aMn",()=>A.aR5(B.IR))
+s($,"b30","aMn",()=>A.aR5(B.IQ))
 s($,"b3_","ayY",()=>A.aaA(A.aOc($.aMn())))
 s($,"b_C","d1",()=>{var q,p=A.G(A.G(A.oy(),"window"),"screen")
 p=p==null?null:A.G(p,"width")
