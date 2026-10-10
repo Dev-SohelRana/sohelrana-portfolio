@@ -182,6 +182,9 @@ class _ProjectContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final hasPlay = project.playStoreUrl?.isNotEmpty == true;
+    final hasApp = project.appStoreUrl?.isNotEmpty == true;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -225,23 +228,26 @@ class _ProjectContent extends StatelessWidget {
 
         const SizedBox(height: 40),
 
-        Row(
-          children: [
-            FilledButton.icon(
-              onPressed: () => UrlService.open(project.playStoreUrl ?? ''),
-              icon: const Icon(Icons.launch),
-              label: const Text("Play Store"),
-            ),
+        if (hasPlay || hasApp)
+          Row(
+            children: [
+              if (hasPlay)
+                FilledButton.icon(
+                  onPressed: () => UrlService.open(project.playStoreUrl!),
+                  icon: const Icon(Icons.launch),
+                  label: const Text("Play Store"),
+                ),
 
-            const SizedBox(width: 16),
+              if (hasPlay && hasApp) const SizedBox(width: 16),
 
-            FilledButton.icon(
-              onPressed: () => UrlService.open(project.appStoreUrl ?? ''),
-              icon: const Icon(Icons.launch),
-              label: const Text("App Store"),
-            ),
-          ],
-        ),
+              if (hasApp)
+                FilledButton.icon(
+                  onPressed: () => UrlService.open(project.appStoreUrl!),
+                  icon: const Icon(Icons.launch),
+                  label: const Text("App Store"),
+                ),
+            ],
+          ),
       ],
     );
   }
